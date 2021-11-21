@@ -1,0 +1,32 @@
+
+.sidebar{
+    flex: 0.33;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 200px;
+    max-height: 100vh;
+    padding: 15px;
+    padding-top: 10px;
+    background-image: url("../bg.jpg") ;
+    background-size: 230px 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sidebar__link {
+    text-decoration: none;
+}
+.sidebar__home{
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+
+}
+.sidebar__bottom{
+   margin-top: 60px;
+   height: 50px;
+   background-color: rgb(76, 214, 248);
+   border-radius: 3px;
+}
+.active{
+    text-decoration: none;
+    background-color: rgb(113, 119, 119);
+}

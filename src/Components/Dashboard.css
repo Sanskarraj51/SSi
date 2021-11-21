@@ -1,0 +1,102 @@
+.dashboard{
+    background-color: rgba(238, 231, 231, 0.808);
+    flex: 0.99;
+    
+}
+.dashboard__top{
+    display: flex;
+}
+.dashboardInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 10px;
+    
+}
+.dashboard__large{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+  
+    width: 230px;
+    height: 130px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.dashboard__large > h3{
+    color: gray;
+    font-size: large;
+    font-weight: 300;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.dashboard__large > h1{
+    color: rgb(97, 95, 95);
+    font-size:  xx-large;
+    font-weight: 300;
+    margin-right: 5px;
+    margin-top: -15px;
+   
+    
+   
+
+}
+.dashboard__large > h1 > span{
+    font-size: large;
+    font-weight: 400;
+    color: gray;
+    padding-right: 10px;
+}
+.dashboard__bottom{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 20px;
+    margin-top: 5px;
+    border-top: 1px solid rgb(189, 183, 183);
+   
+}
+.dashboard__bottom > h4 {
+   
+    color: gray;
+    margin-top: 25px;
+    font-size: small;
+    font-weight: 400;
+    align-items: center;
+   
+    
+}
+.dashboard__bottom>.MuiSvgIcon-root{
+   color:gray;
+   margin-right: 5px;
+   margin-left: 10px;
+   font-size: medium;
+   margin-top: 10px;
+   
+}
+.dashboard__small{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(247, 155, 17);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    margin-top: -150px;
+    margin-left: 15px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+.dashboard__small>.MuiSvgIcon-root{
+    font-size:xx-large;
+    padding: 20px;
+    margin-left: 3px;
+    color: white;
+    
+}
+.dashboard__end{
+    margin-top: 120px;
+    display: flex;
+    
+}

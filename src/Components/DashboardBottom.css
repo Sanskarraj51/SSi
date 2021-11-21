@@ -1,0 +1,68 @@
+.dashboard__Bottom{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+    
+
+}
+.dashboard__Bottom > img{
+    width: 250px;
+    height: 120px;
+    padding: 30px;
+    padding-left: 10px;
+    margin-left: 14px;
+    margin-top: -300px;
+    border-radius: 3px;
+    background-color: rgb(155, 232, 235);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.dashboard__box{
+    height: 280px;
+    width: 320px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.dashboard__box > h2 {
+    font-weight: 400;
+    font-size: large;
+    color: rgb(99, 95, 95);
+    margin-left: 20px;
+    margin-top: 180px;
+}
+.dashboard__box > h4 {
+    font-size: medium;
+    font-weight: 300;
+    color: gray;
+    margin-top: -10px;
+    margin-left: 20px;
+    
+    
+}
+.dashboard__box>h4>.MuiSvgIcon-root{
+   color: green;
+   font-size: medium;
+  
+}
+.dashboard__timestamp{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: small;
+    color: rgb(146, 140, 140);
+    margin-top: 5px;
+    border-top: 0.5px solid rgb(182, 177, 177);
+}
+.dashboard__timestamp >.MuiSvgIcon-root{
+    font-size: small;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.dashboard__timestamp>h4{
+    font-weight: 300;
+    margin-top: 25px;
+}
