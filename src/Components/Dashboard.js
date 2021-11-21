@@ -98,7 +98,7 @@ function Dashboard() {
                 timestamp="campaign sent 2 days ago"
                 />
                  <DashboardBottom
-                src="https://cdn-icons.flaticon.com/png/512/1376/premium/1376203.png?token=exp=1637516214~hmac=f23a525fbb0078be5946b42c80a97c93"
+                src="https://cdn-icons-png.flaticon.com/512/610/610128.png"
                 title="Completed Tasks"
                 
                 description="Last Campaign Performance"
